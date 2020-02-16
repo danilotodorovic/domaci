@@ -14,5 +14,5 @@ function maksimum(br1, br2, br3) {
     }
     return maksimum;
 }
-let max = maksimum(5, 11, 13)
+let max = maksimum(25, 18, 13)
 console.log(max);
