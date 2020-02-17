@@ -20,5 +20,7 @@ btnYourOrder.addEventListener('click', (e) => {
     app1.innerHTML = `Narucili ste ${count} pica <br> u 
      ${time.getHours()}: ${time.getMinutes()}: ${time.getSeconds()} 
      dana ${time.getDate()}. ${time.getMonth() + 1}. ${time.getFullYear()}.`;
+     count = 0;
+     pCount.innerHTML = "Narucite: " + count
   }
 })
